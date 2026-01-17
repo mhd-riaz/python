@@ -1,2 +1,6 @@
 1. [python intro](./python_intro.md)
 2. [string data type](./string.md)
+3. [operator](./operators.md)
+4. [syntax](./syntax.md)
+5. [list](./list.md)
+6. [programs](../notebook/day1.ipynb)

@@ -33,3 +33,20 @@ math.e
 - to see whats inside the math do `dir(math)` after importing
 
 - to see definition of each method or variable inside math class, use `help(math.factorial)`
+
+- how to find size/amount of memory allocated 
+`getsizeof` - module that returns the size of an object in bytes.
+`getrefcount` - The reference count indicates the number of references points to the object in memory. This method is useful for debugging memory management issues and understanding object lifespan in Python's memory.
+```py
+import sys
+a=10
+sys.getsizeof(a) # give size
+# 28
+
+sys.getrefcount(a) # number of references made
+# 4294967295
+
+b=a
+sys.getrefcount(b)
+
+```
