@@ -200,6 +200,21 @@ s.strip
 10. `isdigit()` - checks if the char is a digit (numeric)
 11. `isalpha()` - checks if the char is a alphabet
 12. `isalnum()` - check if the char is alpha numeric
+13. `replace(old, new)` - use to replace char
+```py
+s = "good guy"
+s.replace("good", "bad") # bad guy
+s # good guy
+```
+14. `slice(start : stop : step)`
+```py
+s = "good guy"
+s[0:6] # "good g"
+s[0:5:2] # "g d"
+s[0:5:-1] # "no output"
+s[5:0:-1] # 'g doo'
+```
+
 
 
 ## Comparison operation
