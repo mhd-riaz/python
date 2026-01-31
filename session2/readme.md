@@ -7,5 +7,13 @@ Agenda:
  - [x] If else, nested if
  - [x] While loop
  - [x] Tuple
- - [] Sets
- - [] List comprehension
+ - [x] Sets
+ - [x] List comprehension
+ - [x] Function and its syntax
+ - [x] Functions and it parameters
+ - [x] Lambda functions
+ - [x] Global vs local variables
+ - [x] Late vs Early Binding
+ - [x] Map
+ - [x] Filter
+ - [x] Reduce
