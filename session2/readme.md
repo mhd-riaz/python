@@ -3,9 +3,9 @@
 Notebooks at: [link](../notebook/2.ipynb)
 
 Agenda:
-1. Input
-2. if else, nested if
-3. while loop
-4. typle
-5. sets
-6. list comprehension
+ - [x] Input
+ - [x] If else, nested if
+ - [x] While loop
+ - [x] Tuple
+ - [] Sets
+ - [] List comprehension
