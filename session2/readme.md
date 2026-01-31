@@ -7,5 +7,5 @@ Agenda:
  - [x] If else, nested if
  - [x] While loop
  - [x] Tuple
- - [] Sets
- - [] List comprehension
+ - [x] Sets
+ - [x] List comprehension
