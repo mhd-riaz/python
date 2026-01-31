@@ -205,3 +205,13 @@ def f1(x,y):
 # print(f.reduce(f1, name.split(" "))) # here x value will be set to Mohamed, as we have not set initial value
 print(f.reduce(lambda x,y:x+y[0], name.split(" "),"")) # Note the last parameter, "" -> this sets the initial value for x
 ```
+
+
+## Callbacks
+
+A function calling yet another functions is called callback functions.
+
+
+## Recursive function
+
+A function that calls itself is called recursive function
