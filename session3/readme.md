@@ -35,3 +35,43 @@ from random import *
 # methods/values from the library can be accessed by
 randint(1,5)
 ```
+
+
+---
+
+# PANDAS
+
+| Numpy          | Pandas              |
+| -------------- | ------------------- |
+| for scientific | for structured data |
+
+
+import command:
+`import pandas as pd`
+
+if not installed do
+`pip install pandas`
+
+to check if pandas is installed or no use
+`pd.__version__`
+
+Series: 1 column with labels
+
+Dataframe: more than 1 column with labels
+
+```py
+p = pd.Series([11,22,33,44,55])
+print(p)
+```
+
+output:
+```bash
+0    11
+1    22
+2    33
+3    44
+4    55
+dtype: int64
+```
+
+Note: the 0, 1, 2 ... - represents the index positions
