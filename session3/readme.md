@@ -4,6 +4,8 @@ Jupyter Notebook [link](./../notebook/3.ipynb)
 
 1st half:
 - import statements
+- numpy
+- 
 
 2nd half:
 - assignments
