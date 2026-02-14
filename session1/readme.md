@@ -1,4 +1,4 @@
-# 17th Jan 2025 - Session 1
+# 17th Jan 2026 - Session 1
 
 Notebooks at: [link](../notebook/1.ipynb)
 
