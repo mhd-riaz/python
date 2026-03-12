@@ -116,6 +116,7 @@ def f1(a=x):
 
 x = 33
 f1()
+# op: 222
 ```
 
 ! NOTE: the activation records of the local variables does not gets cleared untill the whole program runtine is over
@@ -130,6 +131,11 @@ f1(200)
 z = [30, 40]
 f1(50, z)
 f1(600)
+# op:
+# [100]
+# [100, 200]
+# [30, 40, 50]
+# [100, 200, 600]
 ```
 
 This is the "Mutable Default Argument" trap—one of the most famous quirks in Python.
